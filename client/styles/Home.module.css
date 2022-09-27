@@ -4,6 +4,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.container h2 {
   font-size: 2rem;
   font-weight: 800;
+}
+.formContainer {
+  margin-top: 2rem;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer form input {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.formContainer form button {
+  padding: 0.5rem;
 }
