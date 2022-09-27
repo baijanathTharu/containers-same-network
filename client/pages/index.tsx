@@ -6,6 +6,8 @@ import styles from '../styles/Home.module.css';
 const BACKEND_URI =
   process.env.NEXT_PUBLIC_BACKEND_URI || 'http://localhost:4444';
 
+console.log('BACKEND_URI', BACKEND_URI);
+
 const Home: NextPage = () => {
   const [name, setName] = useState('stranger');
   const [message, setMessage] = useState(`Hello, ${name}`);
